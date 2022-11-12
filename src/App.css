@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto';
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: transparent;
+  width: 60%;
+  margin: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mb-3 {
+  width: 60%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.cardHeading {
+  width: 30%;
+  padding: 15px;
+  margin-top: 2%;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-weight: 100;
+  font-size: 3.2rem;
+  animation: pulsate 1.5s infinite alternate;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #ace7ff,
+    0 0 0.8rem #ace7ff,
+    0 0 2.8rem #ace7ff,
+    inset 0 0 1.3rem #ace7ff;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ace7ff,
+    0 0 82px #ace7ff,
+    0 0 92px #ace7ff,
+    0 0 102px #ace7ff,
+    0 0 151px #ace7ff;
+}
+
+@keyframes pulsate {
+
+  100% {
+
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #ace7ff,
+      0 0 80px #ace7ff,
+      0 0 90px #ace7ff,
+      0 0 100px #ace7ff,
+      0 0 150px #ace7ff;
+
+  }
+
+  0% {
+
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #ace7ff,
+      0 0 45px #ace7ff,
+      0 0 55px #ace7ff,
+      0 0 70px #ace7ff,
+      0 0 80px #ace7ff;
+
+  }
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.table {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-control:active {
+  background-color: transparent !important;
+
+}
+
+.form-control {
+  background-color: transparent;
+  
+
+}
+
+.form-control:focus {
+  background-color: transparent !important;
+
+}
+
+.btn{
+  background-color:  #14a3db !important;
+  color: white;
+  font-weight: 100;
+  border: #14a3db;
+  font-family: 'Roboto';
+}
+
+input{
+  color: white !important;
+  border-color: #14a3db;
+  outline: #14a3db;
+}
